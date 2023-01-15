@@ -3,6 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@sentry/react": "^7.30.0",
+    "@sentry/tracing": "^7.30.0",
     "@types/react": "^16.8 || ^17.0 || ^18.0",
     "@types/react-dom": "^16.8 || ^17.0 || ^18.0",
     "react": "^18.1.0",

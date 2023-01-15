@@ -15,6 +15,7 @@ export default function App() {
         <button onClick={() => increment()}>Increment</button>
         <button onClick={() => decrement()}>Decrement</button>
         <button onClick={() => reset(0)}>Reset</button>
+        <button onClick={() => methodDoesNotExist()}>Create Error</button>;
       </section>
     </div>
   );
