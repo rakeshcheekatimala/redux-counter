@@ -1,14 +1,14 @@
-import React from 'react';
-import { useCounter } from './use-counter';
+import React from "react";
+import { useCounter } from "./use-counter";
 
-import './style.css';
+import "./style.css";
 
 export default function App() {
   const { count, increment, decrement, reset } = useCounter();
 
   return (
     <div className="container">
-      <h1> Counter Example built using Redux</h1>
+      <h1> Built using Redux</h1>
       <span>Counter is {count} </span>
       <span className="count">0</span>
       <section className="controls">
